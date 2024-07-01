@@ -260,37 +260,37 @@
             <div class="form-row ">
               <div class="form-group col-lg-4">
                 <label for="inputPatientName">Patient Name </label>
-                <input type="text" class="form-control" id="inputPatientName" placeholder="">
+                <input type="text" class="form-control" id="inputPatientName" data-test="inputPatientName" placeholder="">
               </div>
               <div class="form-group col-lg-4">
                 <label for="inputDoctorName">Doctor's Name</label>
-                <select name="" class="form-control wide" id="inputDoctorName">
-                  <option value="Normal distribution ">Normal distribution </option>
-                  <option value="Normal distribution ">Normal distribution </option>
-                  <option value="Normal distribution ">Normal distribution </option>
+                <select name="" class="form-control wide" id="inputDoctorName" data-test="inputDoctorName">
+                  <option value="jordan-pr">Jordan Pr </option>
+                  <option value="mary-jane">Mary Jane </option>
+                  <option value="peter-pan">Peter Pan </option>
                 </select>
               </div>
               <div class="form-group col-lg-4">
                 <label for="inputDepartmentName">Department's Name</label>
-                <select name="" class="form-control wide" id="inputDepartmentName">
-                  <option value="Normal distribution ">Normal distribution </option>
-                  <option value="Normal distribution ">Normal distribution </option>
-                  <option value="Normal distribution ">Normal distribution </option>
+                <select name="" class="form-control wide" id="inputDepartmentName" data-test="inputDepartmentName">
+                  <option value="pediatric">Pediatric Department </option>
+                  <option value="surgery">Surgery Department </option>
+                  <option value="hematology-laboratory">Hematology Laboratory Department </option>
                 </select>
               </div>
             </div>
             <div class="form-row ">
               <div class="form-group col-lg-4">
                 <label for="inputPhone">Phone Number</label>
-                <input type="number" class="form-control" id="inputPhone" placeholder="XXXXXXXXXX">
+                <input type="number" class="form-control" id="inputPhone" data-test="inputPhone" placeholder="XXXXXXXXXX">
               </div>
               <div class="form-group col-lg-4">
                 <label for="inputSymptoms">Symptoms</label>
-                <input type="text" class="form-control" id="inputSymptoms" placeholder="">
+                <input type="text" class="form-control" id="inputSymptoms" data-test="inputSymptoms" placeholder="">
               </div>
               <div class="form-group col-lg-4">
                 <label for="inputDate">Choose Date </label>
-                <div class="input-group date" id="inputDate" data-date-format="mm-dd-yyyy">
+                <div class="input-group date" id="inputDate" data-test="inputDate" data-date-format="mm-dd-yyyy">
                   <input type="text" class="form-control" readonly>
                   <span class="input-group-addon date_icon">
                     <i class="fa fa-calendar" aria-hidden="true"></i>
@@ -299,7 +299,7 @@
               </div>
             </div>
             <div class="btn-box">
-              <button type="submit" class="btn ">Submit Now</button>
+              <button type="submit" data-test="submitBtn" class="btn ">Submit Now</button>
             </div>
           </form>
         </div>
